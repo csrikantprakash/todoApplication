@@ -1,0 +1,56 @@
+.todo-container{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+.todo-header{
+    height: 70px;
+    border: 1px solid lightgreen;
+    display: flex;
+}
+.todo-body{
+    display: flex;
+}
+.todo-history{
+    flex-basis: 10%;
+    background-color: lightgreen;
+    height: 90vh;
+    text-align: center;
+}
+.todo-main{
+    flex-basis: 89%;
+
+}
+.todo-header h1{
+    margin:auto;
+}
+.todo-header button{
+    background-color: red;
+    color: white;
+}
+.todo-task{
+    text-align: center;
+}
+.todo-task-button{
+    margin-top: 20px;
+    color : purple;
+    border: 2px solid purple;
+}
+.todo-table{
+    margin-top: 20px;
+    width: 400px;
+    margin: 100px auto;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+td,thead,tr{
+    border: 1px solid black;
+    width: 80%;
+    padding: 10px;
+   text-align: center;
+}
+thead{
+    background-color: lightblue;
+}
